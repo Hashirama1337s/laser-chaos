@@ -1,0 +1,10 @@
+closest pairs (gap>0 means disjoint):
+  1.1577e-03  A5 C35
+  4.9546e-03  A1 C19
+  5.6817e-03  A4 C34
+  6.5609e-03  A0 C18
+  1.2372e-02  A2 C20
+  1.6900e-02  A3 C33
+  2.0842e-02  A3 C21
+  2.4854e-02  C21 C33
+ALL DISJOINT: True

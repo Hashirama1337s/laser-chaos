@@ -1,0 +1,106 @@
+checker B: design=design_neg1_orient.txt  m=76/1250  order=12  nEdge=32  nStrip=12x12  maxDepth=10
+parsed 24 charts, 24 h-sets, 25 transitions
+T = [5.7119866428905324, 5.711986642890535], m/eps = [1.5199999999999998, 1.5200000000000005]
+(D) disjointness: 276/276 pairs separated -> OK
+  A0   -> A1   o=+1  E- OK    boxes=32 refined=0 worst margin=1.332e-03
+  A0   -> A1   o=+1  E+ OK    boxes=32 refined=0 worst margin=1.245e-03
+  A0   -> A1   o=+1  S  OK    boxes=144 refined=0 worst margin=1.872e-03
+trans A0 -> A1 (o=+1): VERIFIED  [1.21 s]
+  A1   -> A2   o=+1  E- OK    boxes=32 refined=0 worst margin=1.783e-03
+  A1   -> A2   o=+1  E+ OK    boxes=32 refined=0 worst margin=1.950e-03
+  A1   -> A2   o=+1  S  OK    boxes=144 refined=0 worst margin=2.443e-03
+trans A1 -> A2 (o=+1): VERIFIED  [1.01 s]
+  A2   -> A3   o=+1  E- OK    boxes=32 refined=0 worst margin=3.707e-03
+  A2   -> A3   o=+1  E+ OK    boxes=32 refined=0 worst margin=2.724e-03
+  A2   -> A3   o=+1  S  OK    boxes=144 refined=0 worst margin=9.603e-04
+trans A2 -> A3 (o=+1): VERIFIED  [1.43 s]
+  A3   -> A4   o=+1  E- OK    boxes=32 refined=0 worst margin=4.002e-03
+  A3   -> A4   o=+1  E+ OK    boxes=32 refined=0 worst margin=4.545e-03
+  A3   -> A4   o=+1  S  OK    boxes=144 refined=0 worst margin=6.073e-04
+trans A3 -> A4 (o=+1): VERIFIED  [1.31 s]
+  A4   -> A5   o=+1  E- OK    boxes=32 refined=0 worst margin=3.554e-03
+  A4   -> A5   o=+1  E+ OK    boxes=32 refined=0 worst margin=5.982e-03
+  A4   -> A5   o=+1  S  OK    boxes=144 refined=0 worst margin=2.516e-03
+trans A4 -> A5 (o=+1): VERIFIED  [1.33 s]
+  A5   -> A0   o=+1  E- OK    boxes=32 refined=0 worst margin=2.845e-02
+  A5   -> A0   o=+1  E+ OK    boxes=32 refined=0 worst margin=2.718e-02
+  A5   -> A0   o=+1  S  OK    boxes=144 refined=0 worst margin=2.871e-03
+trans A5 -> A0 (o=+1): VERIFIED  [1.06 s]
+  A5   -> C18  o=+1  E- OK    boxes=32 refined=0 worst margin=1.185e-02
+  A5   -> C18  o=+1  E+ OK    boxes=32 refined=0 worst margin=5.074e-02
+  A5   -> C18  o=+1  S  OK    boxes=144 refined=0 worst margin=8.935e-04
+trans A5 -> C18 (o=+1): VERIFIED  [1.12 s]
+  C18  -> C19  o=+1  E- OK    boxes=32 refined=0 worst margin=1.614e-03
+  C18  -> C19  o=+1  E+ OK    boxes=32 refined=0 worst margin=1.588e-03
+  C18  -> C19  o=+1  S  OK    boxes=144 refined=0 worst margin=2.048e-03
+trans C18 -> C19 (o=+1): VERIFIED  [1.22 s]
+  C19  -> C20  o=+1  E- OK    boxes=32 refined=0 worst margin=1.895e-03
+  C19  -> C20  o=+1  E+ OK    boxes=32 refined=0 worst margin=1.944e-03
+  C19  -> C20  o=+1  S  OK    boxes=144 refined=0 worst margin=1.384e-03
+trans C19 -> C20 (o=+1): VERIFIED  [1.03 s]
+  C20  -> C21  o=+1  E- OK    boxes=32 refined=0 worst margin=2.817e-03
+  C20  -> C21  o=+1  E+ OK    boxes=32 refined=0 worst margin=2.688e-03
+  C20  -> C21  o=+1  S  OK    boxes=144 refined=0 worst margin=1.110e-03
+trans C20 -> C21 (o=+1): VERIFIED  [1.42 s]
+  C21  -> C22  o=+1  E- OK    boxes=32 refined=0 worst margin=3.100e-03
+  C21  -> C22  o=+1  E+ OK    boxes=32 refined=0 worst margin=3.153e-03
+  C21  -> C22  o=+1  S  OK    boxes=144 refined=0 worst margin=4.421e-04
+trans C21 -> C22 (o=+1): VERIFIED  [1.31 s]
+  C22  -> C23  o=+1  E- OK    boxes=32 refined=0 worst margin=2.946e-03
+  C22  -> C23  o=+1  E+ OK    boxes=32 refined=0 worst margin=3.209e-03
+  C22  -> C23  o=+1  S  OK    boxes=144 refined=0 worst margin=1.909e-03
+trans C22 -> C23 (o=+1): VERIFIED  [1.35 s]
+  C23  -> C24  o=+1  E- OK    boxes=32 refined=0 worst margin=1.982e-03
+  C23  -> C24  o=+1  E+ OK    boxes=32 refined=0 worst margin=1.892e-03
+  C23  -> C24  o=+1  S  OK    boxes=144 refined=0 worst margin=6.921e-04
+trans C23 -> C24 (o=+1): VERIFIED  [1.10 s]
+  C24  -> C25  o=+1  E- OK    boxes=32 refined=0 worst margin=1.775e-03
+  C24  -> C25  o=+1  E+ OK    boxes=32 refined=0 worst margin=1.751e-03
+  C24  -> C25  o=+1  S  OK    boxes=144 refined=0 worst margin=1.388e-03
+trans C24 -> C25 (o=+1): VERIFIED  [1.15 s]
+  C25  -> C26  o=+1  E- OK    boxes=32 refined=0 worst margin=1.966e-03
+  C25  -> C26  o=+1  E+ OK    boxes=32 refined=0 worst margin=2.012e-03
+  C25  -> C26  o=+1  S  OK    boxes=144 refined=0 worst margin=9.381e-04
+trans C25 -> C26 (o=+1): VERIFIED  [0.94 s]
+  C26  -> C27  o=+1  E- OK    boxes=32 refined=0 worst margin=3.298e-03
+  C26  -> C27  o=+1  E+ OK    boxes=32 refined=0 worst margin=3.210e-03
+  C26  -> C27  o=+1  S  OK    boxes=144 refined=0 worst margin=6.682e-04
+trans C26 -> C27 (o=+1): VERIFIED  [1.41 s]
+  C27  -> C28  o=+1  E- OK    boxes=32 refined=0 worst margin=4.581e-03
+  C27  -> C28  o=+1  E+ OK    boxes=32 refined=0 worst margin=4.636e-03
+  C27  -> C28  o=+1  S  OK    boxes=144 refined=0 worst margin=5.995e-04
+trans C27 -> C28 (o=+1): VERIFIED  [1.35 s]
+  C28  -> C29  o=+1  E- OK    boxes=32 refined=0 worst margin=5.872e-03
+  C28  -> C29  o=+1  E+ OK    boxes=32 refined=0 worst margin=5.112e-03
+  C28  -> C29  o=+1  S  OK    boxes=144 refined=0 worst margin=4.138e-04
+trans C28 -> C29 (o=+1): VERIFIED  [1.39 s]
+  C29  -> C30  o=+1  E- OK    boxes=32 refined=0 worst margin=4.921e-03
+  C29  -> C30  o=+1  E+ OK    boxes=32 refined=0 worst margin=5.184e-03
+  C29  -> C30  o=+1  S  OK    boxes=144 refined=0 worst margin=5.884e-04
+trans C29 -> C30 (o=+1): VERIFIED  [1.30 s]
+  C30  -> C31  o=+1  E- OK    boxes=32 refined=0 worst margin=2.989e-03
+  C30  -> C31  o=+1  E+ OK    boxes=32 refined=0 worst margin=3.042e-03
+  C30  -> C31  o=+1  S  OK    boxes=144 refined=0 worst margin=1.229e-03
+trans C30 -> C31 (o=+1): VERIFIED  [1.23 s]
+  C31  -> C32  o=+1  E- OK    boxes=32 refined=0 worst margin=4.562e-03
+  C31  -> C32  o=+1  E+ OK    boxes=32 refined=0 worst margin=4.444e-03
+  C31  -> C32  o=+1  S  OK    boxes=144 refined=0 worst margin=8.889e-04
+trans C31 -> C32 (o=+1): VERIFIED  [0.99 s]
+  C32  -> C33  o=+1  E- OK    boxes=32 refined=0 worst margin=5.709e-03
+  C32  -> C33  o=+1  E+ OK    boxes=32 refined=0 worst margin=6.472e-03
+  C32  -> C33  o=+1  S  OK    boxes=144 refined=0 worst margin=6.357e-04
+trans C32 -> C33 (o=+1): VERIFIED  [1.44 s]
+  C33  -> C34  o=+1  E- OK    boxes=32 refined=0 worst margin=6.449e-03
+  C33  -> C34  o=+1  E+ OK    boxes=32 refined=0 worst margin=6.177e-03
+  C33  -> C34  o=+1  S  OK    boxes=144 refined=0 worst margin=7.290e-04
+trans C33 -> C34 (o=+1): VERIFIED  [1.28 s]
+  C34  -> C35  o=+1  E- OK    boxes=32 refined=0 worst margin=6.137e-03
+  C34  -> C35  o=+1  E+ OK    boxes=32 refined=0 worst margin=5.416e-03
+  C34  -> C35  o=+1  S  OK    boxes=144 refined=0 worst margin=2.087e-03
+trans C34 -> C35 (o=+1): VERIFIED  [1.30 s]
+  C35  -> A0   o=+1  E- FAIL  boxes=1  CERTAIN FAIL piece u=[-0.014624287017365427,-0.014624287017365427] s=[0.0045028909417343275,0.0048030836711832814] depth 0: image u=[0.01578588269,0.01579298382] s=[-0.001860794428,-0.001815748434]
+  C35  -> A0   o=+1  E+ FAIL  boxes=1  CERTAIN FAIL piece u=[0.014624287017365427,0.014624287017365427] s=[0.0045028909417343275,0.0048030836711832814] depth 0: image u=[-0.01605891232,-0.01605553954] s=[-0.001893919411,-0.001850251808]
+  C35  -> A0   o=+1  S  OK    boxes=144 refined=0 worst margin=7.364e-04
+trans C35 -> A0 (o=+1): FAILED  [0.76 s]
+integrations=5138 integration failures/guard rejections=0  total time 30.49 s
+NOT VERIFIED

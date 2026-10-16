@@ -1,0 +1,36 @@
+{
+  "title": "Moki & Julio: A chaotic invariant set in the loss-modulated class-B laser - a computer-assisted proof",
+  "upload_type": "software",
+  "version": "1.0",
+  "description": "<p>The class-B laser rate equations with modulated losses (Oppo 2025, arXiv:2510.18472, Eq. 27), a two-variable description of loss-modulated lasers such as the 1982 Florence CO2 laser, have no rigorous chaos proof that we could find; their chaos rests on simulations. At the review's own parameters (mu = 2, eps = 0.04, omega = 1.1, m = 0.0608) we prove, with rigorous interval-arithmetic integration (CAPD), 25 covering relations for the once-per-modulation map on 24 disjoint sets built along a period-6 saddle orbit and a homoclinic excursion. Hence the map has a compact invariant chaotic set: it carries infinitely many periodic orbits and topological entropy at least 0.0537 per modulation period, and P<sup>24</sup> has a full two-symbol shift on part of it. Numerically (not proved), the long-run motion at these parameters is a stable period-16 cycle in the last steps of the period-doubling cascade, so the proved chaos coexists with a periodic attractor. Two independently written checkers, positive and negative controls, review-seat cross-checks and a one-command reproduction are included. Text and figures CC BY 4.0; code MIT.</p>",
+  "creators": [
+    {
+      "name": "Moki & Julio"
+    }
+  ],
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "keywords": [
+    "class-B laser",
+    "modulated losses",
+    "CO2 laser",
+    "chaos",
+    "topological entropy",
+    "covering relations",
+    "computer-assisted proof",
+    "interval arithmetic",
+    "CAPD"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "arXiv:2510.18472",
+      "relation": "references",
+      "scheme": "arxiv"
+    },
+    {
+      "identifier": "10.5281/zenodo.23172757",
+      "relation": "isDerivedFrom",
+      "scheme": "doi"
+    }
+  ]
+}

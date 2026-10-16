@@ -1,0 +1,10 @@
+newton 0: |P^k x - x| = 7.555e-12
+newton 1: |P^k x - x| = 2.331e-14
+periodic point (I,W): [0.02552477 1.71069503]  residual 2.3314683517128287e-14
+Floquet multipliers of P^16 (DOP853 1e-13): [0.00101663 0.63977308] |.| [0.00101663 0.63977308]
+det check exp(trace integral) -> det J = 0.000650413909099109
+LE per tau = -4.887110e-03 ; per period = -2.791511e-02
+minimal period: 16
+Radau rtol=1e-11: multipliers [0.00101663 0.63977308]  |P^k x - x| = 5.557776461273534e-13
+LSODA rtol=1e-11: multipliers [0.00101663 0.63977307]  |P^k x - x| = 8.47832914985247e-12
+DOP853 rtol=1e-09: multipliers [0.00101663 0.63977309]  |P^k x - x| = 8.975602483474177e-10

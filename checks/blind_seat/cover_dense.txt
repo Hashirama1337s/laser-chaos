@@ -1,0 +1,29 @@
+24 charts, 24 sets, 25 transitions; T=5.711986642890532
+  A0->A1   o=+1 margL=+1.332e-03 (+0.152w) margR=+1.245e-03 (+0.142w) margS=+1.886e-03 (+0.314b) rk4err=1.9e-10
+  A1->A2   o=+1 margL=+1.783e-03 (+0.138w) margR=+1.950e-03 (+0.151w) margS=+2.444e-03 (+0.543b) rk4err=3.1e-11
+  A2->A3   o=+1 margL=+3.708e-03 (+0.168w) margR=+2.724e-03 (+0.124w) margS=+9.765e-04 (+0.279b) rk4err=2.5e-10
+  A3->A4   o=+1 margL=+4.002e-03 (+0.138w) margR=+4.545e-03 (+0.156w) margS=+6.144e-04 (+0.512b) rk4err=2.7e-10
+  A4->A5   o=+1 margL=+3.554e-03 (+0.108w) margR=+5.982e-03 (+0.182w) margS=+2.662e-03 (+0.391b) rk4err=1.9e-10
+  A5->A0   o=+1 margL=+2.845e-02 (+3.556w) margR=+2.718e-02 (+3.398w) margS=+2.874e-03 (+0.718b) rk4err=2.2e-10
+  A5->C18  o=+1 margL=+1.185e-02 (+2.645w) margR=+5.074e-02 (+11.327w) margS=+8.968e-04 (+0.445b) rk4err=2.2e-10
+ C18->C19  o=+1 margL=+1.614e-03 (+0.401w) margR=+1.588e-03 (+0.395w) margS=+2.052e-03 (+0.498b) rk4err=1.9e-10
+ C19->C20  o=+1 margL=+1.895e-03 (+0.391w) margR=+1.944e-03 (+0.401w) margS=+1.384e-03 (+0.502b) rk4err=2.8e-11
+ C20->C21  o=+1 margL=+2.817e-03 (+0.407w) margR=+2.688e-03 (+0.388w) margS=+1.113e-03 (+0.478b) rk4err=2.5e-10
+ C21->C22  o=+1 margL=+3.100e-03 (+0.395w) margR=+3.153e-03 (+0.401w) margS=+4.429e-04 (+0.555b) rk4err=2.7e-10
+ C22->C23  o=+1 margL=+2.946e-03 (+0.377w) margR=+3.209e-03 (+0.411w) margS=+1.925e-03 (+0.467b) rk4err=2.1e-10
+ C23->C24  o=+1 margL=+1.982e-03 (+0.401w) margR=+1.892e-03 (+0.383w) margS=+6.923e-04 (+0.537b) rk4err=2.4e-10
+ C24->C25  o=+1 margL=+1.775e-03 (+0.402w) margR=+1.751e-03 (+0.396w) margS=+1.393e-03 (+0.501b) rk4err=1.8e-10
+ C25->C26  o=+1 margL=+1.966e-03 (+0.392w) margR=+2.012e-03 (+0.401w) margS=+9.393e-04 (+0.505b) rk4err=8.8e-12
+ C26->C27  o=+1 margL=+3.298e-03 (+0.404w) margR=+3.210e-03 (+0.394w) margS=+6.701e-04 (+0.488b) rk4err=3.3e-10
+ C27->C28  o=+1 margL=+4.581e-03 (+0.397w) margR=+4.636e-03 (+0.402w) margS=+6.018e-04 (+0.549b) rk4err=1.5e-10
+ C28->C29  o=+1 margL=+5.872e-03 (+0.426w) margR=+5.112e-03 (+0.371w) margS=+4.249e-04 (+0.311b) rk4err=1.2e-10
+ C29->C30  o=+1 margL=+4.921e-03 (+0.388w) margR=+5.184e-03 (+0.408w) margS=+5.917e-04 (+0.700b) rk4err=3.8e-10
+ C30->C31  o=+1 margL=+2.989e-03 (+0.396w) margR=+3.042e-03 (+0.403w) margS=+1.241e-03 (+0.550b) rk4err=1.0e-10
+ C31->C32  o=+1 margL=+4.562e-03 (+0.403w) margR=+4.444e-03 (+0.393w) margS=+8.908e-04 (+0.523b) rk4err=2.6e-11
+ C32->C33  o=+1 margL=+5.709e-03 (+0.373w) margR=+6.472e-03 (+0.423w) margS=+6.469e-04 (+0.356b) rk4err=2.6e-10
+ C33->C34  o=+1 margL=+6.449e-03 (+0.407w) margR=+6.177e-03 (+0.389w) margS=+7.322e-04 (+0.708b) rk4err=2.7e-10
+ C34->C35  o=+1 margL=+6.137e-03 (+0.420w) margR=+5.416e-03 (+0.370w) margS=+2.131e-03 (+0.444b) rk4err=1.9e-10
+ C35->A0   o=-1 margL=+7.786e-03 (+0.973w) margR=+8.056e-03 (+1.007w) margS=+7.375e-04 (+0.184b) rk4err=2.2e-10
+max rk4 step-halving diff: 3.805037396276134e-10  time 327.72942090034485
+WORST relative margin: ('A4', 'A5', 1) 0.10806491530068496
+ANY VIOLATION: False

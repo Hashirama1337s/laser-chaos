@@ -1,0 +1,423 @@
+Laser map P (mu = 2, eps = 1/25, omega = 11/10, m = [0.0608, 0.0608]), C0 Lohner tripleton, Taylor order 12; 24 h-sets, 25 transitions
+chart A0 affine Q=(-5.132864839, 1.365421594) U=(0.9619497654, 0.2732263692) S=(-0.724980768, 0.6887691094)
+chart A1 affine Q=(1.10779661, -1.330264541) U=(0.3203022593, 0.9473153977) S=(-0.07800831099, 0.9969527087)
+chart A2 affine Q=(-3.315737896, 1.773288849) U=(-0.9691124117, -0.2466194101) S=(0.9665898519, -0.2563280284)
+chart A3 affine Q=(0.124633278, 1.097101819) U=(0.9412884895, -0.3376032871) S=(-0.7637867853, 0.6454686256)
+chart A4 affine Q=(-3.96645843, 1.273010307) U=(-0.9967674816, -0.08034044885) S=(0.4449125541, -0.8955740166)
+chart A5 affine Q=(1.36669533, -0.584512229) U=(0.0069472174, -0.9999758678) S=(0.2142069131, -0.9767883079)
+chart C18 affine Q=(-5.152190479, 1.359909625) U=(0.961344395, 0.2753487865) S=(0.7213748912, -0.6925447757)
+chart C19 affine Q=(1.099580961, -1.354179901) U=(0.3294322384, 0.9441792204) S=(0.06872530593, -0.997635621)
+chart C20 affine Q=(-3.274313473, 1.783838102) U=(-0.9690225458, -0.2469722773) S=(-0.9636488564, 0.2671720075)
+chart C21 affine Q=(0.04429448361, 1.124056393) U=(0.9542844575, -0.2988999402) S=(0.7724820547, -0.6350365936)
+chart C22 affine Q=(-3.835376496, 1.283900662) U=(-0.996375652, -0.08506209586) S=(-0.2668598877, 0.9637353373)
+chart C23 affine Q=(1.358640211, -0.4075026159) U=(0.08329794935, -0.9965246869) S=(-0.2512243102, 0.9679288951)
+chart C24 affine Q=(-5.30100323, 1.315604815) U=(0.9548016552, 0.2972436697) S=(0.6899789721, -0.7238294123)
+chart C25 affine Q=(1.029522372, -1.535423145) U=(0.3877630007, 0.9217591091) S=(0.0005655406363, -0.9999998401)
+chart C26 affine Q=(-2.963276706, 1.86412132) U=(-0.9670440774, -0.2546090188) S=(-0.9539241658, 0.3000478059)
+chart C27 affine Q=(-0.6288930273, 1.242574904) U=(0.9974323281, -0.07161529739) S=(0.8804607557, -0.4741190332)
+chart C28 affine Q=(-2.599545491, 1.400824388) U=(-0.9955174426, -0.09457812323) S=(-0.9589733628, 0.2834961894)
+chart C29 affine Q=(0.3693326981, 1.178026413) U=(0.8996874964, -0.4365345449) S=(0.7408048919, -0.6717202633)
+chart C30 affine Q=(-4.902203197, 1.128926602) U=(-0.9979496999, -0.06400309758) S=(-0.6556620398, 0.7550544944)
+chart C31 affine Q=(1.114946714, -1.680095407) U=(-0.5137115908, -0.8579629371) S=(0.03839440352, 0.9992626631)
+chart C32 affine Q=(-3.432228803, 1.803457099) U=(0.9722931636, 0.2337648476) S=(0.9695384234, -0.244939269)
+chart C33 affine Q=(0.1656512631, 1.061924857) U=(-0.9302279083, 0.366982341) S=(-0.7542997147, 0.6565302281)
+chart C34 affine Q=(-3.970171047, 1.280575344) U=(0.9971563877, 0.07536005819) S=(0.4361921073, -0.8998535689)
+chart C35 affine Q=(1.362926813, -0.5675047411) U=(-0.01141544821, 0.9999348416) S=(0.2184722045, -0.9758431718)
+h-set A0: |u - 0| <= 0.008, |s| <= 0.004
+h-set A1: |u - 0| <= 0.00876467502, |s| <= 0.006
+h-set A2: |u - 0| <= 0.01288841206, |s| <= 0.0045
+h-set A3: |u - 0| <= 0.02204572809, |s| <= 0.0035
+h-set A4: |u - 0| <= 0.02904428455, |s| <= 0.0012
+h-set A5: |u - 0| <= 0.03289101321, |s| <= 0.0068
+h-set C18: |u - 0| <= 0.004479279302, |s| <= 0.002016024706
+h-set C19: |u - 0| <= 0.00402103575, |s| <= 0.004116694611
+h-set C20: |u - 0| <= 0.004852269174, |s| <= 0.002757172349
+h-set C21: |u - 0| <= 0.006925948189, |s| <= 0.002326262562
+h-set C22: |u - 0| <= 0.007856590556, |s| <= 0.0007983473313
+h-set C23: |u - 0| <= 0.007807388549, |s| <= 0.004123551578
+h-set C24: |u - 0| <= 0.004937067784, |s| <= 0.001289183337
+h-set C25: |u - 0| <= 0.004418678756, |s| <= 0.002780166461
+h-set C26: |u - 0| <= 0.005016402837, |s| <= 0.001859675844
+h-set C27: |u - 0| <= 0.008153288303, |s| <= 0.001373616137
+h-set C28: |u - 0| <= 0.01153957018, |s| <= 0.001096466652
+h-set C29: |u - 0| <= 0.01379153944, |s| <= 0.001368163037
+h-set C30: |u - 0| <= 0.01269300577, |s| <= 0.000845621212
+h-set C31: |u - 0| <= 0.00754953164, |s| <= 0.002256665681
+h-set C32: |u - 0| <= 0.01131968509, |s| <= 0.001704707128
+h-set C33: |u - 0| <= 0.01530805165, |s| <= 0.001815707976
+h-set C34: |u - 0| <= 0.01585966415, |s| <= 0.001034119937
+h-set C35: |u - 0| <= 0.01462428702, |s| <= 0.004803083671
+transition A0 => A1 (orientation 1)
+transition A1 => A2 (orientation 1)
+transition A2 => A3 (orientation 1)
+transition A3 => A4 (orientation 1)
+transition A4 => A5 (orientation 1)
+transition A5 => A0 (orientation 1)
+transition A5 => C18 (orientation 1)
+transition C18 => C19 (orientation 1)
+transition C19 => C20 (orientation 1)
+transition C20 => C21 (orientation 1)
+transition C21 => C22 (orientation 1)
+transition C22 => C23 (orientation 1)
+transition C23 => C24 (orientation 1)
+transition C24 => C25 (orientation 1)
+transition C25 => C26 (orientation 1)
+transition C26 => C27 (orientation 1)
+transition C27 => C28 (orientation 1)
+transition C28 => C29 (orientation 1)
+transition C29 => C30 (orientation 1)
+transition C30 => C31 (orientation 1)
+transition C31 => C32 (orientation 1)
+transition C32 => C33 (orientation 1)
+transition C33 => C34 (orientation 1)
+transition C34 => C35 (orientation 1)
+transition C35 => A0 (orientation -1)
+disjoint A0 / A1: VERIFIED
+disjoint A0 / A2: VERIFIED
+disjoint A0 / A3: VERIFIED
+disjoint A0 / A4: VERIFIED
+disjoint A0 / A5: VERIFIED
+disjoint A0 / C18: VERIFIED
+disjoint A0 / C19: VERIFIED
+disjoint A0 / C20: VERIFIED
+disjoint A0 / C21: VERIFIED
+disjoint A0 / C22: VERIFIED
+disjoint A0 / C23: VERIFIED
+disjoint A0 / C24: VERIFIED
+disjoint A0 / C25: VERIFIED
+disjoint A0 / C26: VERIFIED
+disjoint A0 / C27: VERIFIED
+disjoint A0 / C28: VERIFIED
+disjoint A0 / C29: VERIFIED
+disjoint A0 / C30: VERIFIED
+disjoint A0 / C31: VERIFIED
+disjoint A0 / C32: VERIFIED
+disjoint A0 / C33: VERIFIED
+disjoint A0 / C34: VERIFIED
+disjoint A0 / C35: VERIFIED
+disjoint A1 / A2: VERIFIED
+disjoint A1 / A3: VERIFIED
+disjoint A1 / A4: VERIFIED
+disjoint A1 / A5: VERIFIED
+disjoint A1 / C18: VERIFIED
+disjoint A1 / C19: VERIFIED
+disjoint A1 / C20: VERIFIED
+disjoint A1 / C21: VERIFIED
+disjoint A1 / C22: VERIFIED
+disjoint A1 / C23: VERIFIED
+disjoint A1 / C24: VERIFIED
+disjoint A1 / C25: VERIFIED
+disjoint A1 / C26: VERIFIED
+disjoint A1 / C27: VERIFIED
+disjoint A1 / C28: VERIFIED
+disjoint A1 / C29: VERIFIED
+disjoint A1 / C30: VERIFIED
+disjoint A1 / C31: VERIFIED
+disjoint A1 / C32: VERIFIED
+disjoint A1 / C33: VERIFIED
+disjoint A1 / C34: VERIFIED
+disjoint A1 / C35: VERIFIED
+disjoint A2 / A3: VERIFIED
+disjoint A2 / A4: VERIFIED
+disjoint A2 / A5: VERIFIED
+disjoint A2 / C18: VERIFIED
+disjoint A2 / C19: VERIFIED
+disjoint A2 / C20: VERIFIED
+disjoint A2 / C21: VERIFIED
+disjoint A2 / C22: VERIFIED
+disjoint A2 / C23: VERIFIED
+disjoint A2 / C24: VERIFIED
+disjoint A2 / C25: VERIFIED
+disjoint A2 / C26: VERIFIED
+disjoint A2 / C27: VERIFIED
+disjoint A2 / C28: VERIFIED
+disjoint A2 / C29: VERIFIED
+disjoint A2 / C30: VERIFIED
+disjoint A2 / C31: VERIFIED
+disjoint A2 / C32: VERIFIED
+disjoint A2 / C33: VERIFIED
+disjoint A2 / C34: VERIFIED
+disjoint A2 / C35: VERIFIED
+disjoint A3 / A4: VERIFIED
+disjoint A3 / A5: VERIFIED
+disjoint A3 / C18: VERIFIED
+disjoint A3 / C19: VERIFIED
+disjoint A3 / C20: VERIFIED
+disjoint A3 / C21: VERIFIED
+disjoint A3 / C22: VERIFIED
+disjoint A3 / C23: VERIFIED
+disjoint A3 / C24: VERIFIED
+disjoint A3 / C25: VERIFIED
+disjoint A3 / C26: VERIFIED
+disjoint A3 / C27: VERIFIED
+disjoint A3 / C28: VERIFIED
+disjoint A3 / C29: VERIFIED
+disjoint A3 / C30: VERIFIED
+disjoint A3 / C31: VERIFIED
+disjoint A3 / C32: VERIFIED
+disjoint A3 / C33: VERIFIED
+disjoint A3 / C34: VERIFIED
+disjoint A3 / C35: VERIFIED
+disjoint A4 / A5: VERIFIED
+disjoint A4 / C18: VERIFIED
+disjoint A4 / C19: VERIFIED
+disjoint A4 / C20: VERIFIED
+disjoint A4 / C21: VERIFIED
+disjoint A4 / C22: VERIFIED
+disjoint A4 / C23: VERIFIED
+disjoint A4 / C24: VERIFIED
+disjoint A4 / C25: VERIFIED
+disjoint A4 / C26: VERIFIED
+disjoint A4 / C27: VERIFIED
+disjoint A4 / C28: VERIFIED
+disjoint A4 / C29: VERIFIED
+disjoint A4 / C30: VERIFIED
+disjoint A4 / C31: VERIFIED
+disjoint A4 / C32: VERIFIED
+disjoint A4 / C33: VERIFIED
+disjoint A4 / C34: VERIFIED
+disjoint A4 / C35: VERIFIED
+disjoint A5 / C18: VERIFIED
+disjoint A5 / C19: VERIFIED
+disjoint A5 / C20: VERIFIED
+disjoint A5 / C21: VERIFIED
+disjoint A5 / C22: VERIFIED
+disjoint A5 / C23: VERIFIED
+disjoint A5 / C24: VERIFIED
+disjoint A5 / C25: VERIFIED
+disjoint A5 / C26: VERIFIED
+disjoint A5 / C27: VERIFIED
+disjoint A5 / C28: VERIFIED
+disjoint A5 / C29: VERIFIED
+disjoint A5 / C30: VERIFIED
+disjoint A5 / C31: VERIFIED
+disjoint A5 / C32: VERIFIED
+disjoint A5 / C33: VERIFIED
+disjoint A5 / C34: VERIFIED
+disjoint A5 / C35: VERIFIED
+disjoint C18 / C19: VERIFIED
+disjoint C18 / C20: VERIFIED
+disjoint C18 / C21: VERIFIED
+disjoint C18 / C22: VERIFIED
+disjoint C18 / C23: VERIFIED
+disjoint C18 / C24: VERIFIED
+disjoint C18 / C25: VERIFIED
+disjoint C18 / C26: VERIFIED
+disjoint C18 / C27: VERIFIED
+disjoint C18 / C28: VERIFIED
+disjoint C18 / C29: VERIFIED
+disjoint C18 / C30: VERIFIED
+disjoint C18 / C31: VERIFIED
+disjoint C18 / C32: VERIFIED
+disjoint C18 / C33: VERIFIED
+disjoint C18 / C34: VERIFIED
+disjoint C18 / C35: VERIFIED
+disjoint C19 / C20: VERIFIED
+disjoint C19 / C21: VERIFIED
+disjoint C19 / C22: VERIFIED
+disjoint C19 / C23: VERIFIED
+disjoint C19 / C24: VERIFIED
+disjoint C19 / C25: VERIFIED
+disjoint C19 / C26: VERIFIED
+disjoint C19 / C27: VERIFIED
+disjoint C19 / C28: VERIFIED
+disjoint C19 / C29: VERIFIED
+disjoint C19 / C30: VERIFIED
+disjoint C19 / C31: VERIFIED
+disjoint C19 / C32: VERIFIED
+disjoint C19 / C33: VERIFIED
+disjoint C19 / C34: VERIFIED
+disjoint C19 / C35: VERIFIED
+disjoint C20 / C21: VERIFIED
+disjoint C20 / C22: VERIFIED
+disjoint C20 / C23: VERIFIED
+disjoint C20 / C24: VERIFIED
+disjoint C20 / C25: VERIFIED
+disjoint C20 / C26: VERIFIED
+disjoint C20 / C27: VERIFIED
+disjoint C20 / C28: VERIFIED
+disjoint C20 / C29: VERIFIED
+disjoint C20 / C30: VERIFIED
+disjoint C20 / C31: VERIFIED
+disjoint C20 / C32: VERIFIED
+disjoint C20 / C33: VERIFIED
+disjoint C20 / C34: VERIFIED
+disjoint C20 / C35: VERIFIED
+disjoint C21 / C22: VERIFIED
+disjoint C21 / C23: VERIFIED
+disjoint C21 / C24: VERIFIED
+disjoint C21 / C25: VERIFIED
+disjoint C21 / C26: VERIFIED
+disjoint C21 / C27: VERIFIED
+disjoint C21 / C28: VERIFIED
+disjoint C21 / C29: VERIFIED
+disjoint C21 / C30: VERIFIED
+disjoint C21 / C31: VERIFIED
+disjoint C21 / C32: VERIFIED
+disjoint C21 / C33: VERIFIED
+disjoint C21 / C34: VERIFIED
+disjoint C21 / C35: VERIFIED
+disjoint C22 / C23: VERIFIED
+disjoint C22 / C24: VERIFIED
+disjoint C22 / C25: VERIFIED
+disjoint C22 / C26: VERIFIED
+disjoint C22 / C27: VERIFIED
+disjoint C22 / C28: VERIFIED
+disjoint C22 / C29: VERIFIED
+disjoint C22 / C30: VERIFIED
+disjoint C22 / C31: VERIFIED
+disjoint C22 / C32: VERIFIED
+disjoint C22 / C33: VERIFIED
+disjoint C22 / C34: VERIFIED
+disjoint C22 / C35: VERIFIED
+disjoint C23 / C24: VERIFIED
+disjoint C23 / C25: VERIFIED
+disjoint C23 / C26: VERIFIED
+disjoint C23 / C27: VERIFIED
+disjoint C23 / C28: VERIFIED
+disjoint C23 / C29: VERIFIED
+disjoint C23 / C30: VERIFIED
+disjoint C23 / C31: VERIFIED
+disjoint C23 / C32: VERIFIED
+disjoint C23 / C33: VERIFIED
+disjoint C23 / C34: VERIFIED
+disjoint C23 / C35: VERIFIED
+disjoint C24 / C25: VERIFIED
+disjoint C24 / C26: VERIFIED
+disjoint C24 / C27: VERIFIED
+disjoint C24 / C28: VERIFIED
+disjoint C24 / C29: VERIFIED
+disjoint C24 / C30: VERIFIED
+disjoint C24 / C31: VERIFIED
+disjoint C24 / C32: VERIFIED
+disjoint C24 / C33: VERIFIED
+disjoint C24 / C34: VERIFIED
+disjoint C24 / C35: VERIFIED
+disjoint C25 / C26: VERIFIED
+disjoint C25 / C27: VERIFIED
+disjoint C25 / C28: VERIFIED
+disjoint C25 / C29: VERIFIED
+disjoint C25 / C30: VERIFIED
+disjoint C25 / C31: VERIFIED
+disjoint C25 / C32: VERIFIED
+disjoint C25 / C33: VERIFIED
+disjoint C25 / C34: VERIFIED
+disjoint C25 / C35: VERIFIED
+disjoint C26 / C27: VERIFIED
+disjoint C26 / C28: VERIFIED
+disjoint C26 / C29: VERIFIED
+disjoint C26 / C30: VERIFIED
+disjoint C26 / C31: VERIFIED
+disjoint C26 / C32: VERIFIED
+disjoint C26 / C33: VERIFIED
+disjoint C26 / C34: VERIFIED
+disjoint C26 / C35: VERIFIED
+disjoint C27 / C28: VERIFIED
+disjoint C27 / C29: VERIFIED
+disjoint C27 / C30: VERIFIED
+disjoint C27 / C31: VERIFIED
+disjoint C27 / C32: VERIFIED
+disjoint C27 / C33: VERIFIED
+disjoint C27 / C34: VERIFIED
+disjoint C27 / C35: VERIFIED
+disjoint C28 / C29: VERIFIED
+disjoint C28 / C30: VERIFIED
+disjoint C28 / C31: VERIFIED
+disjoint C28 / C32: VERIFIED
+disjoint C28 / C33: VERIFIED
+disjoint C28 / C34: VERIFIED
+disjoint C28 / C35: VERIFIED
+disjoint C29 / C30: VERIFIED
+disjoint C29 / C31: VERIFIED
+disjoint C29 / C32: VERIFIED
+disjoint C29 / C33: VERIFIED
+disjoint C29 / C34: VERIFIED
+disjoint C29 / C35: VERIFIED
+disjoint C30 / C31: VERIFIED
+disjoint C30 / C32: VERIFIED
+disjoint C30 / C33: VERIFIED
+disjoint C30 / C34: VERIFIED
+disjoint C30 / C35: VERIFIED
+disjoint C31 / C32: VERIFIED
+disjoint C31 / C33: VERIFIED
+disjoint C31 / C34: VERIFIED
+disjoint C31 / C35: VERIFIED
+disjoint C32 / C33: VERIFIED
+disjoint C32 / C34: VERIFIED
+disjoint C32 / C35: VERIFIED
+disjoint C33 / C34: VERIFIED
+disjoint C33 / C35: VERIFIED
+disjoint C34 / C35: VERIFIED
+set A0 edge u=c-w: VERIFIED (64 enclosures, 0 integration failures resolved by subdivision)
+set A0 edge u=c+w: VERIFIED (64 enclosures, 0 integration failures resolved by subdivision)
+set A0 whole set (S): VERIFIED (64 enclosures, 0 integration failures resolved by subdivision)
+set A1 edge u=c-w: VERIFIED (64 enclosures, 0 integration failures resolved by subdivision)
+set A1 edge u=c+w: VERIFIED (64 enclosures, 0 integration failures resolved by subdivision)
+set A1 whole set (S): VERIFIED (64 enclosures, 0 integration failures resolved by subdivision)
+set A2 edge u=c-w: VERIFIED (64 enclosures, 0 integration failures resolved by subdivision)
+set A2 edge u=c+w: VERIFIED (64 enclosures, 0 integration failures resolved by subdivision)
+set A2 whole set (S): VERIFIED (160 enclosures, 0 integration failures resolved by subdivision)
+set A3 edge u=c-w: VERIFIED (64 enclosures, 0 integration failures resolved by subdivision)
+set A3 edge u=c+w: VERIFIED (64 enclosures, 0 integration failures resolved by subdivision)
+set A3 whole set (S): VERIFIED (64 enclosures, 0 integration failures resolved by subdivision)
+set A4 edge u=c-w: VERIFIED (64 enclosures, 0 integration failures resolved by subdivision)
+set A4 edge u=c+w: VERIFIED (64 enclosures, 0 integration failures resolved by subdivision)
+set A4 whole set (S): VERIFIED (448 enclosures, 0 integration failures resolved by subdivision)
+set A5 edge u=c-w: VERIFIED (64 enclosures, 0 integration failures resolved by subdivision)
+set A5 edge u=c+w: VERIFIED (64 enclosures, 0 integration failures resolved by subdivision)
+set A5 whole set (S): VERIFIED (64 enclosures, 0 integration failures resolved by subdivision)
+set C18 edge u=c-w: VERIFIED (64 enclosures, 0 integration failures resolved by subdivision)
+set C18 edge u=c+w: VERIFIED (64 enclosures, 0 integration failures resolved by subdivision)
+set C18 whole set (S): VERIFIED (64 enclosures, 0 integration failures resolved by subdivision)
+set C19 edge u=c-w: VERIFIED (64 enclosures, 0 integration failures resolved by subdivision)
+set C19 edge u=c+w: VERIFIED (64 enclosures, 0 integration failures resolved by subdivision)
+set C19 whole set (S): VERIFIED (64 enclosures, 0 integration failures resolved by subdivision)
+set C20 edge u=c-w: VERIFIED (64 enclosures, 0 integration failures resolved by subdivision)
+set C20 edge u=c+w: VERIFIED (64 enclosures, 0 integration failures resolved by subdivision)
+set C20 whole set (S): VERIFIED (64 enclosures, 0 integration failures resolved by subdivision)
+set C21 edge u=c-w: VERIFIED (64 enclosures, 0 integration failures resolved by subdivision)
+set C21 edge u=c+w: VERIFIED (64 enclosures, 0 integration failures resolved by subdivision)
+set C21 whole set (S): VERIFIED (64 enclosures, 0 integration failures resolved by subdivision)
+set C22 edge u=c-w: VERIFIED (64 enclosures, 0 integration failures resolved by subdivision)
+set C22 edge u=c+w: VERIFIED (64 enclosures, 0 integration failures resolved by subdivision)
+set C22 whole set (S): VERIFIED (64 enclosures, 0 integration failures resolved by subdivision)
+set C23 edge u=c-w: VERIFIED (64 enclosures, 0 integration failures resolved by subdivision)
+set C23 edge u=c+w: VERIFIED (64 enclosures, 0 integration failures resolved by subdivision)
+set C23 whole set (S): VERIFIED (64 enclosures, 0 integration failures resolved by subdivision)
+set C24 edge u=c-w: VERIFIED (64 enclosures, 0 integration failures resolved by subdivision)
+set C24 edge u=c+w: VERIFIED (64 enclosures, 0 integration failures resolved by subdivision)
+set C24 whole set (S): VERIFIED (64 enclosures, 0 integration failures resolved by subdivision)
+set C25 edge u=c-w: VERIFIED (64 enclosures, 0 integration failures resolved by subdivision)
+set C25 edge u=c+w: VERIFIED (64 enclosures, 0 integration failures resolved by subdivision)
+set C25 whole set (S): VERIFIED (64 enclosures, 0 integration failures resolved by subdivision)
+set C26 edge u=c-w: VERIFIED (64 enclosures, 0 integration failures resolved by subdivision)
+set C26 edge u=c+w: VERIFIED (64 enclosures, 0 integration failures resolved by subdivision)
+set C26 whole set (S): VERIFIED (64 enclosures, 0 integration failures resolved by subdivision)
+set C27 edge u=c-w: VERIFIED (64 enclosures, 0 integration failures resolved by subdivision)
+set C27 edge u=c+w: VERIFIED (64 enclosures, 0 integration failures resolved by subdivision)
+set C27 whole set (S): VERIFIED (64 enclosures, 0 integration failures resolved by subdivision)
+set C28 edge u=c-w: VERIFIED (64 enclosures, 0 integration failures resolved by subdivision)
+set C28 edge u=c+w: VERIFIED (64 enclosures, 0 integration failures resolved by subdivision)
+set C28 whole set (S): VERIFIED (448 enclosures, 0 integration failures resolved by subdivision)
+set C29 edge u=c-w: VERIFIED (64 enclosures, 0 integration failures resolved by subdivision)
+set C29 edge u=c+w: VERIFIED (64 enclosures, 0 integration failures resolved by subdivision)
+set C29 whole set (S): VERIFIED (64 enclosures, 0 integration failures resolved by subdivision)
+set C30 edge u=c-w: VERIFIED (64 enclosures, 0 integration failures resolved by subdivision)
+set C30 edge u=c+w: VERIFIED (64 enclosures, 0 integration failures resolved by subdivision)
+set C30 whole set (S): VERIFIED (64 enclosures, 0 integration failures resolved by subdivision)
+set C31 edge u=c-w: VERIFIED (64 enclosures, 0 integration failures resolved by subdivision)
+set C31 edge u=c+w: VERIFIED (64 enclosures, 0 integration failures resolved by subdivision)
+set C31 whole set (S): VERIFIED (64 enclosures, 0 integration failures resolved by subdivision)
+set C32 edge u=c-w: VERIFIED (64 enclosures, 0 integration failures resolved by subdivision)
+set C32 edge u=c+w: VERIFIED (64 enclosures, 0 integration failures resolved by subdivision)
+set C32 whole set (S): VERIFIED (310 enclosures, 0 integration failures resolved by subdivision)
+set C33 edge u=c-w: VERIFIED (64 enclosures, 0 integration failures resolved by subdivision)
+set C33 edge u=c+w: VERIFIED (64 enclosures, 0 integration failures resolved by subdivision)
+set C33 whole set (S): VERIFIED (64 enclosures, 0 integration failures resolved by subdivision)
+set C34 edge u=c-w: VERIFIED (64 enclosures, 0 integration failures resolved by subdivision)
+set C34 edge u=c+w: VERIFIED (64 enclosures, 0 integration failures resolved by subdivision)
+set C34 whole set (S): VERIFIED (82 enclosures, 0 integration failures resolved by subdivision)
+set C35 edge u=c-w: VERIFIED (64 enclosures, 0 integration failures resolved by subdivision)
+set C35 edge u=c+w: VERIFIED (64 enclosures, 0 integration failures resolved by subdivision)
+set C35 whole set (S): VERIFIED (64 enclosures, 0 integration failures resolved by subdivision)
+ALL COVERING RELATIONS AND DISJOINTNESS VERIFIED

@@ -1,0 +1,6 @@
+m=0.0608 rtol=1e-06 RK45 ic=(1.0, 0.0): smallest-period-with-return<1e-6: 16  min dist 9.238420553560438e-11 at 48
+m=0.0608 rtol=1e-06 RK45 ic=(0.5, 1.0): smallest-period-with-return<1e-6: 16  min dist 7.882192625745608e-11 at 32
+m=0.0608 rtol=1e-06 RK45 ic=(3.0, -1.0): smallest-period-with-return<1e-6: 16  min dist 5.790771693274886e-11 at 16
+m=0.0608 rtol=0.001 RK45 ic=(1.0, 0.0): smallest-period-with-return<1e-6: None  min dist 0.005797408223786381 at 64
+m=0.0608 rtol=0.001 RK45 ic=(0.5, 1.0): smallest-period-with-return<1e-6: None  min dist 0.004325308539905844 at 64
+m=0.0608 rtol=0.001 RK45 ic=(3.0, -1.0): smallest-period-with-return<1e-6: None  min dist 0.001975648227932857 at 32

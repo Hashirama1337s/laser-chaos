@@ -1,0 +1,6 @@
+checker B: design=design_neg3_thinA0.txt  m=76/1250  order=12  nEdge=32  nStrip=12x12  maxDepth=10
+parsed 24 charts, 24 h-sets, 25 transitions
+T = [5.7119866428905324, 5.711986642890535], m/eps = [1.5199999999999998, 1.5200000000000005]
+probe C35->A0: min over boundary points of rightBound(s) = -0.00326252237488 at (u,s)=(-0.0020181516083964263,-0.0048030836711832814)
+probe C35->A0: max over boundary points of leftBound(s)  = -0.00181575350839 at (u,s)=(-0.014624287017365427,0.0048030836711832814)
+probe: bM = 0.0023999999999999998 -> CERTIFIED (S) VIOLATION at a single point
