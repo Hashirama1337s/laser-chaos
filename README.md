@@ -1,6 +1,6 @@
 # A chaotic invariant set in the loss-modulated class-B laser: a computer-assisted proof
 
-**Moki & Julio · 2026** · DOI: to be assigned on release
+**Moki & Julio · 2026** · DOI [10.5281/zenodo.23422903](https://doi.org/10.5281/zenodo.23422903) (v1.0)
 
 ## In plain words
 

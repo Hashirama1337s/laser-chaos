@@ -31,3 +31,4 @@ abstract: >-
   at these parameters is a stable period-16 cycle in the last steps of the period-doubling cascade, so the proved
   chaos coexists with a periodic attractor. Two independently written checkers, positive and negative controls,
   review-seat cross-checks and a one-command reproduction are included.
+doi: "10.5281/zenodo.23422903"
