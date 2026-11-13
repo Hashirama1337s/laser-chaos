@@ -20,7 +20,11 @@ keywords:
   - computer-assisted proof
   - interval arithmetic
   - CAPD
+  - laser dynamics
+  - nonlinear dynamics
 abstract: >-
+  In 1982 a group in Florence drove a CO2 laser into chaos by periodically wobbling how much light leaks out of
+  it. Lasers of this kind are described by two equations, which a 2025 review studies by simulation.
   The class-B laser rate equations with modulated losses (Oppo 2025, arXiv:2510.18472, Eq. 27), a two-variable
   description of loss-modulated lasers such as the 1982 Florence CO2 laser, have no rigorous chaos proof that we could
   find; their chaos rests on simulations. At the review's own parameters (mu = 2, eps = 0.04, omega = 1.1, m = 0.0608)

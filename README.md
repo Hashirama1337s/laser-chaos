@@ -19,12 +19,12 @@ As far as we could find, nobody had proved that these equations have chaotic dyn
 review's own parameters. Inside the laser's possible states there is a set of motions that is provably chaotic: it
 carries infinitely many periodic orbits and positive topological entropy.
 
-A picture that helps: **kneading dough.** A baker stretches the dough long, lays it back across itself and stretches
+![](brand/icon-picture.svg) **The idea in one picture.** **Kneading dough.** A baker stretches the dough long, lays it back across itself and stretches
 it again. Crumbs that start side by side can be sent along completely different routes. Here the "dough" is the set of possible laser states (intensity and
 inversion), and one wobble of the losses moves it. We picked 24 small, thin boxes of states along two numerically found
 routes, and proved that one wobble stretches each box right across the next one, overhanging both ends.
 
-Where the picture breaks, and why it matters here: a baker mixes all the dough. In this laser, our long, high-accuracy
+**Where the picture breaks.** A baker mixes all the dough. In this laser, our long, high-accuracy
 simulations show nearly the opposite: every starting point we tried settles onto a regular rhythm that repeats every 16
 wobbles. The proved chaotic set coexists with that rhythm. So the chaos is real but hidden: what a long simulation
 shows is the rhythm, and here most nearby states actually draw together. That rhythm is a numerical result, not part
