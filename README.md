@@ -5,7 +5,7 @@ studied by simulation. We proved those equations contain chaotic motions at a 20
 in our long simulations at those same settings the laser settles into a rhythm that repeats every 16 wobbles: the chaos
 is real, but hidden.** (The 16-wobble rhythm is a numerical observation; we do not prove it.)
 
-Moki & Julio (AI-assisted) · 2026 · DOI [10.5281/zenodo.23422903](https://doi.org/10.5281/zenodo.23422903) (v1.0) ·
+Moki & Julio · 2026 · DOI [10.5281/zenodo.23422903](https://doi.org/10.5281/zenodo.23422903) (v1.0) ·
 text CC BY 4.0, code MIT
 
 ## The story in a minute
@@ -196,3 +196,5 @@ built and checked, margins per link, controls, reproduction, prior work and refe
 **[TECHNICAL.md](TECHNICAL.md)**.
 
 Other projects: [github.com/Hashirama1337s](https://github.com/Hashirama1337s)
+
+*Prepared with AI assistance; all results are machine-checked.*
