@@ -2,7 +2,7 @@
 
 **The standard equations of a laser whose losses are wobbled provably contain chaotic motions, yet in our long simulations at the same settings the laser settles into a rhythm that repeats every 16 wobbles (a numerical observation, not proved).**
 
-[![DOI 10.5281/zenodo.23422903](brand/doi.svg)](https://doi.org/10.5281/zenodo.23422903) ![Licence: text and data CC BY 4.0, code MIT](brand/licence.svg) [![Moki & Julio lab map](brand/lab.svg)](https://github.com/Hashirama1337s)
+[![DOI 10.5281/zenodo.23422901](brand/doi.svg)](https://doi.org/10.5281/zenodo.23422901) ![Licence: text and data CC BY 4.0, code MIT](brand/licence.svg) [![Moki & Julio lab map](brand/lab.svg)](https://github.com/Hashirama1337s)
 
 Moki & Julio · 2026 · version 1.0
 
@@ -194,10 +194,10 @@ like.
 ## How to cite
 
 ```
-Moki & Julio (2026). A chaotic invariant set in the loss-modulated class-B laser - a computer-assisted proof. Version 1.0. Zenodo. https://doi.org/10.5281/zenodo.23422903
+Moki & Julio (2026). A chaotic invariant set in the loss-modulated class-B laser - a computer-assisted proof. Version 1.0. Zenodo. https://doi.org/10.5281/zenodo.23422901
 ```
 
-The DOI always resolves to the newest archived version. Machine-readable: [CITATION.cff](CITATION.cff).
+The DOI always resolves to the newest archived version. Version 1.0 is 10.5281/zenodo.23422903. Machine-readable: [CITATION.cff](CITATION.cff).
 Licences: text, figures and data are CC BY 4.0 (`LICENSE`); code is MIT (`LICENSE-CODE`). CAPD is used under its own licence and is not redistributed.
 
 ## Related projects
