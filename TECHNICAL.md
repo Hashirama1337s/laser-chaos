@@ -20,6 +20,10 @@ rhythm. The period-16 rhythm is a numerical observation; we do not prove it.
 
 ![The proof boxes on the laser's phase plane](figures/proof_chain.png)
 
+![Strobe picture of the laser: 24 proof-box markers along an arc, the 16 green rings of the simulated rhythm (numerical, not proved) beside them, and a zoom showing two boxes at true size](figures/laser-proof-boxes-and-rhythm.svg)
+
+*The laser seen once per wobble of its losses, at the review's setting m = 76/1250. Blue diamonds and orange squares mark where the 24 proof boxes sit (6 on the short loop A0-A5, 18 on the long detour C18-C35); they are far too small to see at this scale, so the right panel shows A0 and C18 at true size. Green rings: the 16 strobe points of the stable rhythm that long simulations settle into (numerical, not part of the theorem). The proof says the boxes carry chaotic motions; it does not say which motion a simulation will show.*
+
 ## The equations
 
 Oppo's Eq. (27) [1], verbatim:
@@ -97,6 +101,10 @@ Let G be the directed graph above. Its two simple loops through A0 have lengths 
    - on the part of Λ that lies in A0 at every multiple of 24 periods, P²⁴ is semi-conjugate to the full shift on two symbols
      (four short loops, or the long loop): a horseshoe for P²⁴.
 
+![Number of closed box-routes against their length n, on a log scale, rising from 6 at n = 6 to 2,381,268 at n = 240](figures/laser-repeating-routes.svg)
+
+*How many different box-routes close up after n wobbles, counted exactly from the proof's route map (log scale; routes exist only for multiples of 6). Each route is followed by an exact solution that repeats after n wobbles, and different routes give different starting states: 6 for n = 6, 30 for n = 24, 3,780 for n = 120, 2,381,268 for n = 240. The count grows by about 1.05518 per wobble, the largest root of x^24 = x^18 + 1.*
+
 **What is not claimed:**
 - that the long-run behaviour at these parameters is chaotic (numerically it is a period-16 cycle; see below);
 - that Λ is hyperbolic or non-attracting;
@@ -133,6 +141,10 @@ at these parameters as asymptotically chaotic. We do not know how that figure wa
 - **Loose tolerances (post hoc).** At relative tolerance 1e-3 (RK45), no return within 1e-6 is found up to 64 periods.
   But the closest returns (2e-3 to 6e-3) fall at multiples of 16 (`checks/referee_seat/per16_out.txt`). The run stays
   close to the cycle; loose tolerance alone does not produce irregular motion.
+
+![Dot chart of the Lyapunov exponent at 18 wobble depths: negative up to 0.0606, positive from 0.0610 apart from one dip at 0.0638; the proof's setting 0.0608 is marked](figures/laser-lyapunov-sweep.svg)
+
+*Largest Lyapunov exponent from long simulations against the wobble depth m (numerical, not proved). Below zero, nearby motions draw together; above zero, they fly apart. At the proof's setting m = 0.0608 simulations settle into a stable 16-wobble rhythm (multipliers 0.640 and 0.00102). The exponent is negative up to m = 0.0606 and positive from m = 0.0610, apart from one window at 0.0638. Dots: the 18 sampled depths; nothing is drawn between them.*
 
 Numerically, the proved chaotic set coexists with this stable cycle; that it is non-attracting is not part of the
 theorem. The paper's value m = 0.0608

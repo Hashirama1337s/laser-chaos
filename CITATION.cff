@@ -3,7 +3,7 @@ message: "If you use this result or these tools, please cite them as below."
 title: "A chaotic invariant set in the loss-modulated class-B laser - a computer-assisted proof"
 authors:
   - name: "Moki & Julio"
-version: "1.0"
+version: "1.0.1"
 date-released: "2026-10-16"
 repository-code: "https://github.com/Hashirama1337s/laser-chaos"
 license:

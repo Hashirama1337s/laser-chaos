@@ -4,7 +4,7 @@
 
 [![DOI 10.5281/zenodo.23422901](brand/doi.svg)](https://doi.org/10.5281/zenodo.23422901) ![Licence: text and data CC BY 4.0, code MIT](brand/licence.svg) [![Moki & Julio lab map](brand/lab.svg)](https://github.com/Hashirama1337s)
 
-Moki & Julio · 2026 · version 1.0
+Moki & Julio · 2026 · version 1.0.1
 
 **Read** [TECHNICAL.md](TECHNICAL.md) · **Re-run** `bash reproduce.sh` · **Check** [proof/design_chain.txt](proof/design_chain.txt)
 
@@ -54,7 +54,9 @@ deliberately broken versions of the boxes.
 
 Full theorem, margins per link, the period-16 evidence, controls and prior work: [TECHNICAL.md](TECHNICAL.md).
 
-![The 24 proof boxes on the laser's phase plane](figures/proof_chain.png)
+![Strobe picture of the laser: 24 proof-box markers along an arc, the 16 green rings of the simulated rhythm (numerical, not proved) beside them, and a zoom showing two boxes at true size](figures/laser-proof-boxes-and-rhythm.svg)
+
+*The laser seen once per wobble of its losses, at the review's setting m = 76/1250. Blue diamonds and orange squares mark where the 24 proof boxes sit (6 on the short loop A0-A5, 18 on the long detour C18-C35); they are far too small to see at this scale, so the right panel shows A0 and C18 at true size. Green rings: the 16 strobe points of the stable rhythm that long simulations settle into (numerical, not part of the theorem). The proof says the boxes carry chaotic motions; it does not say which motion a simulation will show.*
 
 ## What we do not claim
 
@@ -124,11 +126,19 @@ single zero or negative one would sink the proof.
 factor r ≈ 1.05518 per wobble, the largest root of x^24 = x^18 + 1. That gives the **topological entropy**: at least
 ln r ≈ 0.0537 per modulation period.
 
+![Number of closed box-routes against their length n, on a log scale, rising from 6 at n = 6 to 2,381,268 at n = 240](figures/laser-repeating-routes.svg)
+
+*How many different box-routes close up after n wobbles, counted exactly from the proof's route map (log scale; routes exist only for multiples of 6). Each route is followed by an exact solution that repeats after n wobbles, and different routes give different starting states: 6 for n = 6, 30 for n = 24, 3,780 for n = 120, 2,381,268 for n = 240. The count grows by about 1.05518 per wobble, the largest root of x^24 = x^18 + 1.*
+
 **The hidden rhythm (numerical).** Newton's method on 16 wobbles converges to the cycle. Its two multipliers (how much a
 small offset grows or shrinks per trip round the cycle) are 0.63977 and 0.00102, both below 1, so numerically it is
 stable. A sweep of the wobble depth m found the largest Lyapunov exponent (the average rate at which nearby motions
 separate) negative up to m = 0.0606 and positive from m = 0.0610, apart from one window at 0.0638. Attracting chaos
 therefore seems to start just above the review's value.
+
+![Dot chart of the Lyapunov exponent at 18 wobble depths: negative up to 0.0606, positive from 0.0610 apart from one dip at 0.0638; the proof's setting 0.0608 is marked](figures/laser-lyapunov-sweep.svg)
+
+*Largest Lyapunov exponent from long simulations against the wobble depth m (numerical, not proved). Below zero, nearby motions draw together; above zero, they fly apart. At the proof's setting m = 0.0608 simulations settle into a stable 16-wobble rhythm (multipliers 0.640 and 0.00102). The exponent is negative up to m = 0.0606 and positive from m = 0.0610, apart from one window at 0.0638. Dots: the 18 sampled depths; nothing is drawn between them.*
 
 ## Reproduce and reuse
 
@@ -191,14 +201,49 @@ like.
 - **Lyapunov exponent** - the average rate at which nearby motions separate; negative means they converge.
 - **Negative control** - a deliberately broken input that the checker must reject.
 
+## Open doors
+
+What this work leaves open, and what we noticed along the way but did not follow up, for anyone who wants to take the next step.
+
+- **Prove the 16-wobble rhythm.** Every long simulation we ran at the review's settings settles onto a cycle that
+  repeats every 16 wobbles, while the review's figure caption describes the motion there as chaotic. A rigorous proof
+  that this cycle exists and pulls nearby states in would settle what the laser does in the long run at that point.
+  *Status:* UNTESTED observation from this work (seen in simulations, not proved). *Start here:* `design/period16.py`
+  (a point of the cycle and its multipliers 0.63977 and 0.00102), `checks/blind_seat/longrun.txt` and
+  `checks/blind_seat/floquet.txt`, and the interval checker in `proof/` as a model for validated integration.
+  *Ceiling:* a proved statement of the long-run behaviour at the review's own parameter point, next to the proved
+  chaotic set.
+- **Find where lasting chaos begins.** Our sweep of the wobble depth m found the largest Lyapunov exponent (the average
+  rate at which nearby motions separate) negative up to m = 0.0606 and positive from m = 0.0610, apart from a regular
+  window at m = 0.0638. Re-running the long-run check with m = 0.0607, 0.0608 and 0.0609 gives cycles of period 8, 16
+  and 32. Where exactly this period-doubling cascade ends was not pinned down. *Status:* UNTESTED observation from this
+  work (numerical sweep only). *Start here:* `design/sweep.py` and `design/sweep.txt`, and
+  `checks/blind_seat/longrun.py` with its parameter `M` changed. *Ceiling:* a sharp, checked map of the last steps of the
+  period-doubling cascade in a standard laser model.
+- **Look again at the review's other settings.** At the review's second chaotic example (ω = 0.47, m = 0.080, its
+  Fig. 15(b)) our short Lyapunov estimate is clearly negative, about −0.54 per period, which points to regular motion
+  there too. At the settings of its Fig. 14(a) and (b), our default starting point lands on a larger period-3 orbit
+  that coexists with the orbits the review shows. Neither was followed up. *Status:* UNTESTED observation from this
+  work. *Start here:* the last three lines of `design/sweep.txt`, `design/figs.py` and `design/figs.txt`, and the "Model
+  check" paragraph of [TECHNICAL.md](TECHNICAL.md). *Ceiling:* a clear picture of which long-run motions coexist at the
+  review's example settings, with the chaotic ones separated from the regular ones.
+- **Prove the guiding cycle and its loop exist.** The 24 boxes were laid along a six-wobble saddle cycle and an orbit
+  that leaves it and comes back, both found by simulation. The theorem does not claim either one exists; it only gives
+  some periodic orbit inside the six A-boxes. *Status:* UNTESTED observation from this work (found numerically, not
+  proved). *Start here:* `design/orb6.py` (the cycle, stretching about 9.072 and squeezing about 0.00704 over six
+  wobbles), `design/homo.py` and `design/homo.txt` (the loop). *Ceiling:* a proof that the chaotic set is organised by
+  one saddle cycle and its returning loop, as the design assumed.
+
 ## How to cite
 
 ```
-Moki & Julio (2026). A chaotic invariant set in the loss-modulated class-B laser - a computer-assisted proof. Version 1.0. Zenodo. https://doi.org/10.5281/zenodo.23422901
+Moki & Julio (2026). A chaotic invariant set in the loss-modulated class-B laser - a computer-assisted proof. Version 1.0.1. Zenodo. https://doi.org/10.5281/zenodo.23422901
 ```
 
 The DOI always resolves to the newest archived version. Version 1.0 is 10.5281/zenodo.23422903. Machine-readable: [CITATION.cff](CITATION.cff).
 Licences: text, figures and data are CC BY 4.0 (`LICENSE`); code is MIT (`LICENSE-CODE`). CAPD is used under its own licence and is not redistributed.
+
+Release note - v1.0.1: adds Open doors and figures; no change to the certified results.
 
 ## Related projects
 
